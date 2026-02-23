@@ -8,5 +8,9 @@
     </head>
     <body>
         <h1>Bem-Vindo ao app do Well</h1>
+
+        <a href="{{ route('user.create') }}">
+            Cadastrar
+        </a>
     </body>
 </html>
